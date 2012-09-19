@@ -1,0 +1,21 @@
+{
+  "name": "ndocs",
+  "version": "1.0.0",
+  "description": "List all the functions in particular node module.",
+  "main": "index.js",
+  "scripts": {
+    "test": "ndocs"
+  },
+  "bin" : {
+        "ndocs" : "index.js"
+    },
+  "keywords": [
+    "cli",
+    "docs",
+    "nodejs"
+  ], 
+  "dependencies": {"request" :  ">= 1.2.0"},
+  "repository": "",
+  "author": "hemanth.hm",
+  "license": "BSD"
+}
